@@ -41,7 +41,7 @@ To get started with the **Automatic Kubernetes Cluster Setup**, follow the steps
 1. Clone the repository:
     ```bash
     git clone https://github.com/ADITYA1234556/Automatic-Kubernetes-Cluster-Setup.git
-    cd k8s-cluster-setup
+    cd Automatic-Kubernetes-Cluster-Setup.git
     ```
 
 2. Ensure you have the necessary dependencies installed:
