@@ -56,7 +56,7 @@ The script uses the following steps to initialize the Kubernetes cluster:
 
 1. **Master Node Initialization**: The script configures the master node with `kubeadm init`.
 2. **Join Command Generation**: After initializing the master node, the script fetches the join command to connect worker nodes.
-3. **Network Setup**: The script configures the pod network using the Flannel CNI (or your preferred CNI).
+3. **Network Setup**: The script configures the pod network using the Weave CNI (or your preferred CNI).
 4. **Join Worker Nodes**: Worker nodes are automatically joined to the cluster using the generated join command.
 
 ---

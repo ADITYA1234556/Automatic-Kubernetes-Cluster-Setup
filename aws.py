@@ -123,8 +123,8 @@ def setup_master_after_install(ssh, is_root=False):
 def apply_pod_network(ssh, pod_network_cidr="10.244.0.0/16"):
     """Apply the pod network configuration to the cluster."""
     # Example: Apply Flannel CNI (you can replace with other network options like Calico)
-    flannel_yaml = "https://reweave.azurewebsites.net/k8s/v1.29/net.yaml"
-    ssh.exec_command(f"kubectl apply -f {flannel_yaml}")
+    weave_yaml = "https://reweave.azurewebsites.net/k8s/v1.29/net.yaml"
+    ssh.exec_command(f"kubectl apply -f {weave_yaml}")
     print(f"Pod network with CIDR {pod_network_cidr} applied.")
 
 #FUNCTION TO EXECUTE AFTER K8S INSTALLATION ON WORKER NODE
