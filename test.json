@@ -1,0 +1,139 @@
+{
+  "ReservationId": "r-051b2cb1544fce01f",
+  "OwnerId": "866934333672",
+  "Groups": [],
+  "Instances": [
+    {
+      "Architecture": "x86_64",
+      "BlockDeviceMappings": [],
+      "ClientToken": "e51f926e-0e84-462d-a560-f7a28d271c0a",
+      "EbsOptimized": "False",
+      "EnaSupport": "True",
+      "Hypervisor": "xen",
+      "NetworkInterfaces": [
+        {
+          "Attachment": {
+            "AttachTime": datetime.datetime( 2024, 11, 12, 16,  40,  18,  tzinfo=tzutc()),
+            "AttachmentId": "eni-attach-0860dbc23b2c0a539",
+            "DeleteOnTermination": "True",
+            "DeviceIndex": 0,
+            "Status": "attaching",
+            "NetworkCardIndex": 0
+          },
+          "Description": "",
+          "Groups": [
+            {
+              "GroupId": "sg-027d5850ec69e6c09",
+              "GroupName": "ec2defaultvpcallsecurity"
+            }
+          ],
+          "Ipv6Addresses": [],
+          "MacAddress": "06:9f:6f:66:cb:5d",
+          "NetworkInterfaceId": "eni-081526ebe7f31c7f7",
+          "OwnerId": "866934333672",
+          "PrivateDnsName": "ip-172-31-13-247.eu-west-3.compute.internal",
+          "PrivateIpAddress": "172.31.13.247",
+          "PrivateIpAddresses": [
+            {
+              "Primary": "True",
+              "PrivateDnsName": "ip-172-31-13-247.eu-west-3.compute.internal",
+              "PrivateIpAddress": "172.31.13.247"
+            }
+          ],
+          "SourceDestCheck": "True",
+          "Status": "in-use",
+          "SubnetId": "subnet-00de9af047920c590",
+          "VpcId": "vpc-0f4bda68a8bb76ae8",
+          "InterfaceType": "interface"
+        }
+      ],
+      "RootDeviceName": "/dev/sda1",
+      "RootDeviceType": "ebs",
+      "SecurityGroups": [
+        {
+          "GroupId": "sg-027d5850ec69e6c09",
+          "GroupName": "ec2defaultvpcallsecurity"
+        }
+      ],
+      "SourceDestCheck": "True",
+      "StateReason": {
+        "Code": "pending",
+        "Message": "pending"
+      },
+      "VirtualizationType": "hvm",
+      "CpuOptions": {
+        "CoreCount": 1,
+        "ThreadsPerCore": 2
+      },
+      "CapacityReservationSpecification": {
+        "CapacityReservationPreference": "open"
+      },
+      "MetadataOptions": {
+        "State": "pending",
+        "HttpTokens": "optional",
+        "HttpPutResponseHopLimit": 1,
+        "HttpEndpoint": "enabled",
+        "HttpProtocolIpv6": "disabled",
+        "InstanceMetadataTags": "disabled"
+      },
+      "EnclaveOptions": {
+        "Enabled": False
+      },
+      "BootMode": "uefi-preferred",
+      "PrivateDnsNameOptions": {
+        "HostnameType": "ip-name",
+        "EnableResourceNameDnsARecord": False,
+        "EnableResourceNameDnsAAAARecord": False
+      },
+      "MaintenanceOptions": {
+        "AutoRecovery": "default"
+      },
+      "CurrentInstanceBootMode": "uefi",
+      "InstanceId": "i-005fe89ff15a38331",
+      "ImageId": "ami-07db896e164bc4476",
+      "State": {
+        "Code": 0,
+        "Name": "pending"
+      },
+      "PrivateDnsName": "ip-172-31-13-247.eu-west-3.compute.internal",
+      "PublicDnsName": "",
+      "StateTransitionReason": "",
+      "AmiLaunchIndex": 0,
+      "ProductCodes": [],
+      "InstanceType": "t3.medium",
+      "LaunchTime": datetime.datetime(2024,
+      11,
+      12,
+      16,
+      40,
+      18,
+      tzinfo=tzutc()),
+      "Placement": {
+        "GroupName": "",
+        "Tenancy": "default",
+        "AvailabilityZone": "eu-west-3a"
+      },
+      "Monitoring": {
+        "State": "pending"
+      },
+      "SubnetId": "subnet-00de9af047920c590",
+      "VpcId": "vpc-0f4bda68a8bb76ae8",
+      "PrivateIpAddress": "172.31.13.247"
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "d37d44f4-5b7d-4819-aa70-bdcea804184d",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "d37d44f4-5b7d-4819-aa70-bdcea804184d",
+      "cache-control": "no-cache, no-store",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "vary": "accept-encoding",
+      "content-type": "text/xml;charset=UTF-8",
+      "content-length": "3713",
+      "date": "Tue, 12 Nov 2024 16:40:18 GMT",
+      "server": "AmazonEC2"
+    },
+    "RetryAttempts": 0
+  }
+}
