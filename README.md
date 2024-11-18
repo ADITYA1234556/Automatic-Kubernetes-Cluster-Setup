@@ -16,11 +16,13 @@ Welcome to the **Automatic Kubernetes Cluster Setup** project! This tool automat
 ---
 
 ## **Overview**
-This project automates the process of setting up a Kubernetes cluster on your machines, including:
+This project automates the process of setting up a Kubernetes cluster on your machines by using Python boto3 and paramiko libraries, The project covers:
 - Master and worker node setup
 - Token generation for joining worker nodes to the master
 - Kubernetes components installation (kubeadm, kubelet, kubectl)
 - Configuration of pod network
+- Modules used with paramiko, paramiko.SSHClient() and paramiko.RSAKey.from_private_key_file('pathtofile')
+- Modules used with boto3, boto3.client and boto3.resource 
 
 With this automation, setting up a Kubernetes cluster is no longer a complex task. You can get started with your Kubernetes environment in just a few simple steps!
 
